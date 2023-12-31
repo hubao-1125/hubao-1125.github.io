@@ -3,8 +3,19 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Help Instance"
-                 start-page="Default-topic.md">
+                 name="欢迎来到虎宝的个人Blog"
+                 start-page="HomePage.md">
 
-    <toc-element topic="Default-topic.md"/>
+    <toc-element topic="HomePage.md"/>
+    <toc-element topic="Java.md"/>
+    <toc-element topic="Python.md"/>
+    <toc-element topic="Go.md"/>
+    <toc-element topic="Reactor.md"/>
+    <toc-element topic="数据库.md"/>
+    <toc-element topic="云原生.md"/>
+    <toc-element topic="Linux.md"/>
+    <toc-element topic="网络.md"/>
+    <toc-element topic="版本控制.md"/>
+    <toc-element topic="面试.md"/>
+    <toc-element topic="其他.md"/>
 </instance-profile>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables></variables>
+    <build-profile instance="hi">
+    </build-profile>
+
+    <footer>
+        <copyright>Program 2015.09-2024</copyright>
+        <icp>hubao-1125</icp>
+        <social type="blog" href="link to a blog"/>
+        <social type="twitter" href="link to a Twitter account"/>
+        <social type="facebook" href="link to a Facebook account"/>
+        <social type="instagram" href="link to a Facebook account"/>
+        <link href="https://slack.example.com">Slack community</link>
+        <link href="https://stackoverflow.com/users/23168346/hubao">StackOverflow</link>
+<!--        <link href="https://example.com/terms-an-conditions.html">Terms and conditions</link>-->
+<!--        <link href="https://example.com/code-of-conduct.html">Code of Conduct</link>-->
+    </footer>
+
+</buildprofiles>
