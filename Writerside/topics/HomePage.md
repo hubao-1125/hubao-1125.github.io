@@ -21,13 +21,7 @@
 
 如果有小钱钱可以打赏一下孩子，感激不尽。
 
-![支付宝](alipay.jpeg){ width=300 height=500 }
-
-[//]: # (![微信]&#40;weixin.jpeg&#41;{ width=300 height=500 })
-
-[//]: # (<img src="alipay.jpeg" width="200"/>)
-
-[//]: # (<img src="weixin.jpeg" width="200"/>)
+![支付宝](../images/base/alipay.jpeg){ width=300 height=500 }
 
 
 #### Self-Introduction

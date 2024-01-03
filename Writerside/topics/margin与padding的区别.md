@@ -50,7 +50,7 @@ body
 ```
 
 ### 截图：
-![image_1.png](14d60819-031b-45bc-9d9c-6bbf0b7e4b6d.png)
+![image_1.png](../images/front/css/margin与padding的区别/14d60819-031b-45bc-9d9c-6bbf0b7e4b6d.png)
 
 
 ## 总结：
@@ -100,7 +100,7 @@ p.padding
 
 
 ### 截图：
-![padding代码效果](e1ad7c10-d1c5-4bf0-8a1c-97a6a0102dea.png)
+![padding代码效果](../images/front/css/margin与padding的区别/e1ad7c10-d1c5-4bf0-8a1c-97a6a0102dea.png)
 
 ## 总结：
 
