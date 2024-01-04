@@ -70,6 +70,7 @@
         <toc-element topic="脸书三方登录对接（后端）.md"/>
     </toc-element>
     <toc-element topic="IDE.md">
+        <toc-element topic="如何开启各个IDE的Local-changes.md"/>
         <toc-element topic="IDEA好用插件.md"/>
         <toc-element topic="WebStorm创建项目后git提交会把-idea提交上去解决方法.md"/>
     </toc-element>
