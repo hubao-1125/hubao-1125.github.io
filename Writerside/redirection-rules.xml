@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="3fcd0f4e">
+        <description>Created after removal of "Git简单指令" from 欢迎来到虎宝的个人Blog</description>
+        <accepts>Git简单指令.html</accepts>
+    </rule>
+</rules>

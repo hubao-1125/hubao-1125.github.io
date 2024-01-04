@@ -8,7 +8,7 @@ hexo new "标题"
 然后找个文本编辑器打开生成的`.md`文件，扒拉扒拉编辑完，如果想贴图，还得弄那种免费的图床软件，比较麻烦。
 最近发现了2个好东西，一个是`Hexo-client`一个写`hexo`的客户端软件。虽然作者2年多不更新了，依旧很好用。再一个就是`GithubActions`。废话不多少，上教程。
 
-# 一、Hexo-client
+## 一、Hexo-client
 ```
 https://github.com/gaoyoubo/hexo-client
 ```
@@ -20,11 +20,11 @@ https://www.mspring.org/2018/11/29/HexoClient使用帮助/
 这个是如何使用`Hexo-client`的教程，作者自己写的，可以对着配置你的客户端。
 PS：作者这个教程里面写的`Travis-CI`最好不要对照着配置，因为，`travis`要开始收费了，且你选择免费plan也需要绑定信用卡，银联的不可以，必须万事达或者JCB等。比较麻烦。且发布一次，需要消耗一定的积分，积分不够，就扣钱，比较恶心。我们用`GithubActions`就很好。
 
-# 二、GithubActions
+## 二、GithubActions
 接下来，讲一讲如何使用`Github`的自动发布构建。
 首先，生成一对密钥，作者在写这个`blog`的时候，用的是`Mac`
 
-## 1、生成密钥
+### 1、生成密钥
 首先，执行这个命令，并且3次回车
 ```
 ssh-keygen -f github-deploy-key -C "HEXO CD"
@@ -36,9 +36,9 @@ PS：我的`Hexo`的博客是分仓库的，分了两个仓库，一个是原文
 `hubao-1125.github.io`这个是发布之后的`Pages`的，所以仓库权限是公共的
 `self-blog`是我写的内容，设置的是私有的。
 
-## 2、上传密钥
+### 2、上传密钥
 
-### a)上传私钥
+#### a)上传私钥
 首先，找到`self-blog`这个项目（这是我自己写的博客内容的，换成大家的就是你们自己的博客内容的仓库）
 ![image.png](../images/其他/hexo/Github-Pages+GithubActions+Hexo自动部署+Hexo-client/8167ba9d-52a6-48be-8f54-5d1e3d3a9436.png)
 点击`Settings`
@@ -49,7 +49,7 @@ PS：我的`Hexo`的博客是分仓库的，分了两个仓库，一个是原文
 ![image.png](../images/其他/hexo/Github-Pages+GithubActions+Hexo自动部署+Hexo-client/e9486c60-fe51-4f85-b27f-85fbf6b6c103.png)
 名称可以随便起，我这里的名称叫做`HEXO_DEPLOY_PRI`，然后把你的私钥粘贴进去，点击`Add secret`保存即可。
 
-### b)上传公钥
+#### b)上传公钥
 找到`hubao-1125.github.io`项目
 ![image.png](../images/其他/hexo/Github-Pages+GithubActions+Hexo自动部署+Hexo-client/79eff532-648a-4757-a7df-0d28ba44cdc2.png)
 点击`Settings`
@@ -60,7 +60,7 @@ PS：我的`Hexo`的博客是分仓库的，分了两个仓库，一个是原文
 ![image.png](../images/其他/hexo/Github-Pages+GithubActions+Hexo自动部署+Hexo-client/9cfe436f-0849-45ec-b6e5-f8a5877d7d48.png)
 把你的公钥填写进去，名称我这里叫做`HEXO_DEPLOY_PUB`，记住一定要对`Allow write access`打勾，然后点击`Add key`保存即可。
 
-## 3、配置Actions
+### 3、配置Actions
 
 ![image.png](../images/其他/hexo/Github-Pages+GithubActions+Hexo自动部署+Hexo-client/d15a854b-e54c-4a99-9bbc-b1e2e8d7dd4d.png)
 点击`Actions`
