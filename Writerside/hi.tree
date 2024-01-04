@@ -8,7 +8,9 @@
 
     <toc-element topic="HomePage.md"/>
     <toc-element topic="Java.md"/>
-    <toc-element topic="Python.md"/>
+    <toc-element topic="Python.md">
+        <toc-element topic="Python步长.md"/>
+    </toc-element>
     <toc-element topic="Go.md"/>
     <toc-element topic="Front-Program.md">
         <toc-element topic="React.md"/>
@@ -26,5 +28,13 @@
     <toc-element topic="网络.md"/>
     <toc-element topic="版本控制.md"/>
     <toc-element topic="面试.md"/>
-    <toc-element topic="其他.md"/>
+    <toc-element topic="其他.md">
+        <toc-element topic="hexo.md">
+            <toc-element topic="Github-Pages-GithubActions-Hexo自动部署-Hexo-client.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="IDE.md">
+        <toc-element topic="IDEA好用插件.md"/>
+        <toc-element topic="WebStorm创建项目后git提交会把-idea提交上去解决方法.md"/>
+    </toc-element>
 </instance-profile>
