@@ -3,9 +3,9 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <variables>
-        <algolia-id>Xxx</algolia-id>
-        <algolia-index>writeside</algolia-index>
-        <algolia-api-key>93a5ed0b57c43b6c1e259c5fca190836</algolia-api-key>
+        <algolia-id>OCIOYVPOE9</algolia-id>
+        <algolia-index>blog</algolia-index>
+        <algolia-api-key>8ccb05a569acf15a19a28ac8477975c4</algolia-api-key>
         <web-root>https://some.domain</web-root>
     </variables>
     <build-profile instance="hi">
