@@ -51,12 +51,12 @@
     <toc-element topic="Linux.md"/>
     <toc-element topic="网络.md"/>
     <toc-element topic="版本控制.md">
+        <toc-element topic="GitHub.md">
+            <toc-element topic="开源推送-jar-包到-Maven-中央仓库.md"/>
+        </toc-element>
         <toc-element topic="git.md">
             <toc-element topic="Git简单指令.md"/>
         </toc-element>
-    </toc-element>
-    <toc-element topic="GitHub.md">
-        <toc-element topic="开源推送-jar-包到-Maven-中央仓库.md"/>
     </toc-element>
     <toc-element topic="面试.md"/>
     <toc-element topic="其他.md">
